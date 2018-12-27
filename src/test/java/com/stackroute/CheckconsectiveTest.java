@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class CheckconsectiveTest {
-    Checkconsective obj;
+    Checkconsective obj= new Checkconsective();
 
     @Test
     public void checkConsective() {
