@@ -7,8 +7,6 @@ public class Vowel
         System.out.println(len);
         System.out.println(str1[0]);
         String[] str2=new String[len];
-        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
-        int k=0;
         for(int i=0;i<len;i++){
               str2[i]= str1[i].replaceAll("[aeiou]","");
 
